@@ -1,0 +1,44 @@
+BMI Calculator App
+========================================================
+author: Ming Ho
+date: `r format(Sys.Date(), format = "%B %d, %Y")`
+
+
+What is BMI?
+========================================================
+
+A measure of body fat based on height and weight that applies to adult men and women
+
+$$BMI = Coeff * \frac{Weight}{Height^{2}}$$
+
+The value of *Coeff* depends on the units of *Weight* and *Height*.
+
+
+Interpreting BMI
+========================================================
+
+Interval             | Weight Category
+---------------------|-----------------
+$BMI < 18.5$         | Underweight
+$18.5 \leq BMI < 25$ | Normal
+$25 \leq BMI < 30$   | Overweight
+$30 \leq BMI$        | Obese
+<br>
+* Limits of BMI
+    + It may overestimate body fat in athletes and others who have a muscular build.
+    + It may underestimate body fat in older persons and others who have lost muscle.
+
+
+App Features
+========================================================
+
+* Easy user interface
+<img src="./BMIpitch/screen.JPG" alt="">
+
+
+App Features - Continued
+========================================================
+* BMI calculation in two measurement systems
+    + Imperial: Pounds & Inches
+    + Metric: Kilograms & Centimeters
+* BMI Interpretation
