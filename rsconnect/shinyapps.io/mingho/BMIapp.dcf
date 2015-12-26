@@ -1,0 +1,8 @@
+name: BMIapp
+account: mingho
+server: shinyapps.io
+bundleId: 338780
+url: https://mingho.shinyapps.io/BMIapp
+when: 1451111890.00755
+asMultiple: FALSE
+asStatic: FALSE
